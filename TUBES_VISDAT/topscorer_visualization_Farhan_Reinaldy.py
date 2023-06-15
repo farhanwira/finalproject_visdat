@@ -6,7 +6,7 @@ from bokeh.models import CategoricalColorMapper
 from bokeh.palettes import Spectral6
 
 # Load data
-data = pd.read_csv("finalproject_topscore.csv")
+data = pd.read_csv("/app/finalproject_visdat/TUBES_VISDAT/finalproject_topscore.csv")
 data.set_index('Year', inplace=True)
 
 # Make a list of the unique values from the region column: regions_list
